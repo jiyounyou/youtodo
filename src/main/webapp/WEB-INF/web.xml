@@ -5,9 +5,9 @@
                       https://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
 	version="4.0" metadata-complete="false">
 
-  <description>DEVELOPER-VILLAGE</description>
+  <description>YouTodo</description>
 
-	<display-name>developer-village</display-name>
+	<display-name>your-to-do-list</display-name>
 
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
