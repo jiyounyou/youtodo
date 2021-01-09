@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+  /* 메인 인덱스 페이지 */
+  #index {
+  margin-left: 30px;
+  }
+  
+ #recentFeed {
+    margin-top: 10px;
+  }
+
+ caption {
+  caption-side: top;
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+ }
+
+ caption a {
+	color: white;
+ }
+
+ #tagTitle{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+#index table {
+	width: 700px;
+	margin: 0px;
+	margin-left: 30px;
+}
+/* 레이아웃 */
+body {
+  font-family: "Apple SD Gothic Neo", 'Roboto', sans-serif, "Nanum Gothic";
+  line-height: 2em;
+}
+
+.container {
+  margin: 100px 0px 20px 250px;
+}
+
+.main-color {
+  color: #6C5DDF;
+}
+
+/* 상단바 */
+header {
+  position: fixed;
+  z-index: 2;
+  background-color: #2E3034;
+  text-align: center;
+  float: right;
+  left: 220px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  padding: 10px;
+}
+
+#search {
+  border-radius: 8px;
+  border: 0px;
+  color: white;
+  background-color: #212325;
+  background-image: url("search.png");
+  background-size: 30px;
+  background-position: 5px 4px;
+  background-repeat: no-repeat;
+  outline: none;
+  font-size: 12px;
+  float: left;
+  margin-left: 20px;
+  width: 300px;
+}
+
+header button {
+  margin: 5px;
+}
+
+header a.btn {
+  float: right;
+}
+
+header .btn {
+  margin: 0px;
+}
+
+nav {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  background-color: #212327;
+  overflow-x: hidden;
+  margin: 0px 10px 0px 0px;
+  line-height: 3em;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.1em;
+  float: left;
+}
+
+nav i {
+  margin-right: 10px;
+}
+
+input::placeholder {
+  padding-left: 5px;
+  color: #dbdbdb;
+}
+
+/* 게시판 검색 */
+ #article {
+	border-radius: 10px;
+  border: 0px;
+  color: white;
+  background-color: #212325;
+  background-image: url("search.png");
+  background-size: 30px;
+  background-position: 165px;
+  background-repeat: no-repeat;
+  outline: none;
+  font-size: 12px;
+	padding-left: 10px;
+	width: 200px;
+  position: relative;
+  top: 80px;
+  left: 900px;
+  height: 40px;
+}
+
+ #condition {
+    border-radius: 8px;
+    border: 0px;
+    color: white;
+    background-color: #212325;
+    position: relative;
+    top: 80px;
+    left: 890px;
+    height: 40px;
+    font-size: 12px;
+ }
+
+nav ul hr {
+  border: 1px solid #3b3b3b;
+}
+
+nav ul {
+  padding-left: 0;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+
+
+nav a:hover {
+  color: #6C5DDF;
+}
+
+
+nav i {
+  padding-right: 10px;
+}
+
+nav .buttons li {
+  text-align: left;
+  padding-left: 40px;
+}
+
+nav #sitename {
+  padding-bottom: 50px;
+  font-family: 'Aldrich';
+  line-height: 40px;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+nav #logo-nav {
+  text-align: center;
+  padding-top: 30px;
+  width: 77px;
+}
+
+
+/* 하단바 */
+footer {
+  clear: both;
+  padding: 20px;
+  margin: 0px 100px 0px 320px;
+  width: 1600px;
+}
+
+footer hr {
+  border: 1px solid #535353;
+}
+
+footer img {
+  width: 43px;
+}
+
+
+footer #pro-logo {
+  border-radius: 7px;
+  -moz-border-radius: 70px;
+  -khtml-border-radius: 70px;
+  -webkit-border-radius: 70px;
+}
+
+/* 테이블 */
+table {
+  border-collapse: separate;
+  border-style: hidden;
+  margin: 30px 0px auto 70px;
+  border-spacing: 0px 6px;
+  width: 1200px;
+  overflow: hidden;
+}
+
+
+
+tbody tr {
+	height: 70px;
+  background-color: #2E3034;
+}
+
+thead tr {
+  background-color: #6C5DDF;
+}
+
+th, td {
+  text-align: center;
+}
+
+/* 목록 제목 */
+#title {
+  text-align: left;
+}
+
+#tags {
+  list-style: none;
+  padding: unset;
+  margin: 0px 0px 0px 0px;
+}
+
+#tags li {
+  margin-right: 8px;
+  display: inline;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+#color {
+  text-align: center;
+  color: #37393E;
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  padding: 2px 5px;
+}
+
+.badge {
+	margin-bottom: 10px;
+	margin-right: 3px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-weight: bold;
+}
+
+#menubar {
+  height: 30px;
+  padding: 5px;
+}
+
+/*사이드바 유저 프로필*/
+.user-card {
+  padding: 8px 12px;
+}
+
+.user-card::after {
+  content: "";
+  display: block;
+  clear: left;
+}
+
+.user-photo {
+  width: 60px;
+  height: 60px;
+  margin-left: 12px;
+  margin-right: 15px;
+  float: left;
+}
+
+.user-photo img {
+  border-radius: 50%;
+}
+
+.user-name {
+  float: left;
+  padding: 8px 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+/* 버튼 */
+.btn {
+  border-radius: 10px;
+  margin: 10px 5px 10px 5px;
+  color: white;
+  font-weight: bold;
+}
+
+/* 링크 */
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6C5DDF;
+}
+
+#urls {
+  padding: 5px;
+  font-size: 2em;
+}
+
+.form-control {
+	border: 0px;
+}
+
+
+/*카드*/
+div.card {
+  background-color: #2E3034;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+
+.card-band {
+  height: 15px;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.card-img-top, .card-img {
+	width: auto;
+}
+
+/*유저페이지*/
+.user-info .position-absolute {
+	margin: 20px;
+}
+
+.user-info .card-img-top {
+	margin-top: -70px;
+	margin-bottom: 15px;
+}
+.user-info .urls .btn {
+  margin: 0px;
+}
+
+.row .col-9 {
+	text-align: center;
+	background-color: #232326;
+	border-radius: 10px;
+  padding: 60px;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+#dangerzone {
+	text-align: left;
+}
+/* 로그인 페이지 */
+#auth {
+	border-radius: 10px;
+	background-color: #232326;
+	padding: 60px;
+	margin: 0px auto;
+  width: 850px;
+}
+
+ /* 글쓰기 폼 */
+ #articleForm{
+ margin: 30px 0px auto 70px;
+ width: 900px;
+ }
+ 
+.dropdown-menu-dark {
+	background-color: #212327;
+}
+
+.dropdown-item a:link {
+	color: white;
+}

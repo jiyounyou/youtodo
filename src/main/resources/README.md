@@ -1,0 +1,1 @@
+# /src/main/resource 폴더
